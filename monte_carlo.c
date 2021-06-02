@@ -47,7 +47,8 @@ float mc_pi(int n){
     float m= frandom();
     float square = (l*l+m*m);
     if(square<=1){
-      inside_circle++};
+      inside_circle++;
+      }
     }
     float ratio= (float)inside_circle/n;
   return 4*ratio;
