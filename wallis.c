@@ -28,6 +28,6 @@ float wallis_pi(int n){
   for(int j=1;j<=n;j++){
     f=f*4*j*j/(4*j*j-1);
   }
-  return f;
+  return 2*f;
 }
 
