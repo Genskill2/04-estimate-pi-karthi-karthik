@@ -39,5 +39,22 @@ int main(void) {
   }
 }
 
+float mc_pi(int n){
+  int inside_circle=0;
+    for(int i=1;i<=n;i++)
+  {
+    float l= frandom();
+    float m= frandom();
+    float square = (l*l+m*m);
+    if(square<=1){
+      inside_circle++}}
+    float ratio= (float)inside_circle/n;
+  return 4*ratio;
+}
+    
+      
+  
+    
+
 
 
